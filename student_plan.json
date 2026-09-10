@@ -1,0 +1,39 @@
+{
+  "student_name": "Mark Jayson Cadano",
+  "section": "TN36",
+  "ai_tool": "ChatGPT",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#what-is-devnet-sandbox",
+      "ai_recommendation_summary": "Cisco describes the always-on-sandbox as a shared environment that allows students to practice safe read-only API requests without administrative access. This aligns with the use case scenario of immediate access for read-only exploration.",
+      "verification_status": "verified",
+      "rationale": "The team needs immediate access to a shared Cisco environment for practicing safe read-only API requests, which the always-on-sandbox provides. This resource is suitable as it does not require administrative changes and can be accessed without waiting for provisioning."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#what-is-devnet-sandbox",
+      "ai_recommendation_summary": "Reservation sandboxes are designed for private configuration testing, allowing teams to schedule access and use a VPN for secure administrative changes. This matches the scenario of needing a private environment for testing configuration changes.",
+      "verification_status": "verified",
+      "rationale": "The team requires a private environment to test configuration changes with administrative access. The reservation sandbox allows for scheduled access and secure connections, making it the appropriate resource for this use case."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/labs/learning-labs/",
+      "ai_recommendation_summary": "Learning labs are structured educational environments designed to help students learn and practice specific skills or concepts. This aligns with the use case of providing a guided learning experience for API exploration.",
+      "verification_status": "verified",
+      "rationale": "If the team wants to learn and practice specific API skills in a structured environment. The learning lab provides a guided approach to mastering these skills."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "The code exchange is a collection of code platform where developers can share, discover, and collaborate. This aligns with the use case of finding and utilizing existing solutions for API development.",
+      "verification_status": "verified",
+      "rationale": "The team wants to find and utilize existing code solutions for API development. The code exchange provides a platform for discovering and sharing relevant code snippets and projects."
+    }
+  ]
+}
