@@ -2,8 +2,8 @@
 
 ## Student and Project
 
-- Name:
-- Section:
+- Name: Mark Jayson Cadano
+- Section: TN36
 - Repository name: `it0123-devnet-resource-plan`
 
 ## Purpose
